@@ -185,9 +185,9 @@ if(f2 === 's'){
       fighter_1.health -= s
       fighter_2.health -= (s / 4)
 
-      console.log(`${fighter_2.name} meke sumbmisson. Health -${d}: ${fighter_2.health}`);
+      console.log(`${fighter_2.name} meke sumbmisson. Health -${s /4}: ${fighter_2.health}`);
 
-      console.log(`${fighter_1.name} sumbmissoned. Health -${d}: ${fighter_1.health}`);
+      console.log(`${fighter_1.name} sumbmissoned. Health -${s}: ${fighter_1.health}`);
 
       if(fighter_1.health <= 0){
         console.log(`${fighter_1.name} has tapped. He losed`);
@@ -337,9 +337,9 @@ if(f2 === 's'){
       fighter_1.health -= s
       fighter_2.health -= (s / 4)
 
-      console.log(`${fighter_2.name} meke sumbmisson. Health -${d}: ${fighter_2.health}`);
+      console.log(`${fighter_2.name} meke sumbmisson. Health -${s / 4}: ${fighter_2.health}`);
 
-      console.log(`${fighter_1.name} sumbmissoned. Health -${d}: ${fighter_1.health}`);
+      console.log(`${fighter_1.name} sumbmissoned. Health -${s}: ${fighter_1.health}`);
 
       if(fighter_1.health <= 0){
         console.log(`${fighter_1.name} has tapped. He losed`);
